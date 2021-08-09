@@ -3,7 +3,7 @@ Produce ID card modifications for use in testing.
 
 Current list of files:
 
-`azure-modif.py`: Code linked to Microsoft Azure for making modifications. Currently has slightly lower-quality modifications than Tesseract/C++ code. (`azure-test2.py` locally)
+`azure-modif.py`: Code linked to Microsoft Azure for making modifications. Currently has slightly lower-quality modifications than Tesseract/C++ code. TBD: improve modification (`azure-test2.py` locally)
 
 `levenhstein-test.py`: Computes average Levenhstein distance to assess similarity of output between two runs, in Python for use on Azure output. TBD: Use fuzzywuzzy (`levenhstein-test.py` locally)
 
