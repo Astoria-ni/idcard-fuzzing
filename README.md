@@ -14,3 +14,5 @@ Current list of files:
 `tess-dominant.cpp`: Code linked to Tesseract for making modifications. Uses hierarchical quantization with eigenvectors to find dominant color. Does not include experimental transparency. TBD: transfer parts of this code to Python/Azure. (`opencv-dom.cpp` locally)
 
 `tess-white.cpp`: Code linked to Tesseract for making modifications. Simply replaces bounding box with white background. (`opencv-test.cpp` locally)
+
+`working-image.png`: Prototype sample image that works with existing OCR systems. Currently: collecting other similar samples. (`working-image.png` locally)
