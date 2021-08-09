@@ -5,7 +5,9 @@ Current list of files:
 
 `azure-modif.py`: Code linked to Microsoft Azure for making modifications. Currently has slightly lower-quality modifications than Tesseract/C++ code. (`azure-test2.py` locally)
 
-`levenhstein-testing.cpp`: Computes average Levenhstein distance to assess similarity of output between two runs. (`levenhstein-testing.cpp` locally)
+`levenhstein-test.py`: Computes average Levenhstein distance to assess similarity of output between two runs, in Python for use on Azure output. (`levenhstein-test.py` locally)
+
+`levenhstein-testing.cpp`: Computes average Levenhstein distance to assess similarity of output between two runs, in C++ for use on Tesseract output. (`levenhstein-testing.cpp` locally)
 
 `tess-dominant-transparent.cpp`: Code linked to Tesseract for making modifications. Uses hierarchical quantization with eigenvectors to find dominant color, and has experimental transparency (see constant ALPHA) to improve blend. Currently, transparency improves look of results to humans but confuses machines as original text remains. (`opencv-dom-transparency.cpp` locally)
 
