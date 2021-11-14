@@ -16,3 +16,5 @@ Current list of files:
 `tess-white.cpp`: Code linked to Tesseract for making modifications. Simply replaces bounding box with white background. (`opencv-test.cpp` locally)
 
 `working-image.png`: Prototype sample image that works with existing OCR systems. Currently: collecting other similar samples. (`working-image.png` locally)
+
+See https://drive.google.com/drive/u/0/folders/1hp4dY3_HwEKRAw36fBAWWHVonlI7xF_S for the dataset of fraudulent images.
